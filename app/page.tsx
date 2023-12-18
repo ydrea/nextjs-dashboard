@@ -10,11 +10,11 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6 bg-zinc-300">
       <div className=
-        "flex h-20 shrink-0 items-end rounded-lg p-4 md:h-52 bg-gradient-to-b from-zinc-300 via-green-950 to-green-900"
+       "flex h-20 shrink-0 items-end rounded-lg p-4 md:h-52 bg-gradient-to-b from-zinc-300 via-green-950 to-green-900"
         // bg-green-900
-
+//bg-gradient-to-b from-zinc-300 via-green-900 to-green-800
         // {styles.head}
-      //bg-gradient-to-b from-zinc-400 via-zinc-600 to-green-900
+      //bg-gradient-to-b from-zinc-400 via-zinc-600 to-green-900 
       >
         <AcmeLogo />
       </div>
@@ -34,7 +34,7 @@ export default function Page() {
           </div>
           <Link
             href="/login"
-            className="flex items-center gap-5 self-start rounded-lg px-6 py-3 text-sm font-medium text-white bg-gradient-to-b from-zinc-300 via-green-950 to-green-900 transition-colors duration-900 hover:from-zinc-300 hover:to-green-950 md:text-base"
+            className="flex items-center gap-5 self-start rounded-lg px-6 py-3 text-sm font-medium text-white bg-gradient-to-b from-zinc-300 via-green-950 to-green-900 transition-colors duration-200 hover:from-zinc-300 hover:to-green-950 md:text-base"
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
