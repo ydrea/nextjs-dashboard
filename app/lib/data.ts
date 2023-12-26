@@ -13,8 +13,8 @@ import { unstable_noStore as noStore } from 'next/cache';
 
 export async function fetchRevenue() {
   // Add noStore() here prevent the response from being cached.
-  // This is equivalent to in fetch(..., {cache: 'no-store'}).
 noStore()
+  // This is equivalent to in fetch(..., {cache: 'no-store'}).
   try {
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
